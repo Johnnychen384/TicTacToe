@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 97%);;
+}
+
+#playerTurn{
+    color: white;
+    text-align: center;
+    padding: 6rem;
+}
+
+#gameContainer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 60vh 5vh 60vh;
+    padding: 7rem;
+
+}
+
+table, th, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+table {
+    width: 50vh;
+    height: 36vh;
+    table-layout: fixed;
+}
+
+tr{
+    height: 100px;
+}
+
+@media only screen and (max-width: 1410px) {
+    table {
+        width: 50vh;
+        height: 36vh;
+        table-layout: fixed;
+    }
+    
+    tr{
+        height: 100px;
+    }
+
+    #gameContainer{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    table {
+        width: 50vh;
+        height: 36vh;
+        table-layout: fixed;
+    }
+    
+    tr{
+        height: 100px;
+    }
+
+    #gameContainer{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 605px) {
+    table {
+        width: 50vh;
+        height: 36vh;
+        table-layout: fixed;
+    }
+    
+    tr{
+        height: 80px;
+    }
+
+    #gameContainer{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 605px) {
+    table {
+        width: 50vh;
+        height: 36vh;
+        table-layout: fixed;
+    }
+    
+    tr{
+        height: 80px;
+    }
+
+    #gameContainer{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+}
+
+
